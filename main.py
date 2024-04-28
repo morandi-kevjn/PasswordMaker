@@ -13,4 +13,5 @@ def main():
     print("Generated password: ", generate_password(length))
 
 
-main()
+if __name__ == 'main':
+    main()
